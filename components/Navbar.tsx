@@ -16,7 +16,9 @@ const Navbar = () => {
         <NavItems />
         <SignedOut>
           <div className='flex items-center gap-3'>
-            <SignInButton />
+              <SignInButton>
+                  <button className={'btn-signin'}>Sign In</button>
+              </SignInButton>
             <SignUpButton />
           </div>
         </SignedOut>
